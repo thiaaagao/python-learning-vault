@@ -1,13 +1,17 @@
 ---
-tags: [python, fase-2, regex]
+tags:
+- python
+- fase-2
+- regex
 phase: 2
 topic: regex-json
 status: not-started
 priority: medium
 created: 2026-06-24
-updated: 2026-06-24
-started:
-completed:
+updated: '2026-06-26'
+started: null
+completed: null
+progress_percent: 0
 ---
 
 # Expressões Regulares e JSON

@@ -1,4 +1,11 @@
 resources:
+  books:
+    - name: Pense em Python — Allen B. Downey
+      path: books/Pense em Python (Allen B. Downey) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+      notes: library/pense-em-python/INDEX.md
+      type: book
+      language: pt
+      covers: [fase_1, fase_2, fase_3]
   fase_1:
     - name: FreeCodeCamp - Scientific Computing with Python
       url: https://www.freecodecamp.org/learn/scientific-computing-with-python/

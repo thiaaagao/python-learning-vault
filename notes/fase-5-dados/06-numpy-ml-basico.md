@@ -1,13 +1,17 @@
 ---
-tags: [python, fase-5, data-science]
+tags:
+- python
+- fase-5
+- data-science
 phase: 5
 topic: numpy-ml-basico
 status: not-started
 priority: medium
 created: 2026-06-24
-updated: 2026-06-24
-started:
-completed:
+updated: '2026-06-26'
+started: null
+completed: null
+progress_percent: 0
 ---
 
 # NumPy e Machine Learning Básico

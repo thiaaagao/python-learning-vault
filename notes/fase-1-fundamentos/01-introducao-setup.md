@@ -1,13 +1,17 @@
-﻿---
-tags: [python, fase-1, setup]
+---
+tags:
+- python
+- fase-1
+- setup
 phase: 1
 topic: introducao
-status: not-started
+status: completed
 priority: high
 created: 2026-06-24
-updated: 2026-06-24
-started:
-completed:
+updated: '2026-06-26'
+started: null
+completed: null
+progress_percent: 100
 ---
 
 # Introdução ao Python
@@ -15,10 +19,10 @@ completed:
 ⏱️ ~20 min | 🎯 Projeto: Password Analyzer + Gerador
 
 ## Ao final desta nota você será capaz de:
-- [ ] Instalar Python no seu sistema
-- [ ] Executar código Python no terminal
-- [ ] Usar o interpretador interativo (REPL)
-- [ ] Escrever seu primeiro script .py
+- [x] Instalar Python no seu sistema
+- [x] Executar código Python no terminal
+- [x] Usar o interpretador interativo (REPL)
+- [x] Escrever seu primeiro script .py
 
 ---
 
@@ -90,9 +94,9 @@ Execute e digite seu nome.
 ## ⚡ Mini-Exercícios
 > Marque ao concluir. Cada um vale 10XP!
 
-- [ ] 1. Crie um script que pergunta sua idade e imprime "Você tem X anos"
-- [ ] 2. No REPL, calcule 15 * 37 e 2 ** 10 (potência)
-- [ ] 3. Crie um script que imprime seu nome 10 vezes (sem loop ainda — só 10 prints)
+- [x] 1. Crie um script que pergunta sua idade e imprime "Você tem X anos"
+- [x] 2. No REPL, calcule 15 * 37 e 2 ** 10 (potência)
+- [x] 3. Crie um script que imprime seu nome 10 vezes (sem loop ainda — só 10 prints)
 
 ---
 

@@ -36,6 +36,11 @@
 | [NumPy e ML Básico](./notes/fase-5-dados/06-numpy-ml-basico.md) | 5 | Data Science |
 | [Automação e Notificações](./notes/fase-5-dados/07-automacao-notificacoes.md) | 5 | Email/Slack/SMS |
 
+## Livros
+| Livro | Autor | Acesso |
+|---|---|---|
+| [Pense em Python](./library/pense-em-python/) | Allen B. Downey | 📄 PDF + notas-resumo |
+
 ## Recursos Externos
 - FreeCodeCamp: https://www.freecodecamp.org/learn/scientific-computing-with-python/
 - Real Python: https://realpython.com/

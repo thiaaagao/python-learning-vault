@@ -1,13 +1,17 @@
 ---
-tags: [python, fase-4, async]
+tags:
+- python
+- fase-4
+- async
 phase: 4
 topic: async-await
 status: not-started
 priority: medium
 created: 2026-06-24
-updated: 2026-06-24
-started:
-completed:
+updated: '2026-06-26'
+started: null
+completed: null
+progress_percent: 0
 ---
 
 # Async/Await e Concorrência

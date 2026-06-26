@@ -1,4 +1,8 @@
-﻿---
+---
+progress_percent: 0
+status: not-started
+updated: '2026-06-26'
+---﻿---
 tags: [python, fase-1, functions]
 phase: 1
 topic: funcoes-modulos
@@ -60,7 +64,8 @@ resultado = soma(3, 4)       # resultado = 7
 resultado = mostra_soma(3, 4) # resultado = None!
 `
 
-**Regra:** Use eturn para processar dados, print para depuração.
+**Regra:** Use 
+eturn para processar dados, print para depuração.
 
 ---
 
@@ -87,10 +92,12 @@ print(sistema.getcwd())    # diretório atual
 | Módulo | Uso |
 |---|---|
 | socket | Conexões de rede, port scanning |
-| equests | Requisições HTTP |
+| 
+equests | Requisições HTTP |
 | hashlib | Hashing (MD5, SHA256) |
 | json | Parse de JSON (APIs) |
-| e | Expressões regulares |
+| 
+e | Expressões regulares |
 | subprocess | Executar comandos do sistema |
 | ase64 | Codificação base64 |
 
@@ -101,7 +108,8 @@ print(sistema.getcwd())    # diretório atual
 
 - [ ] 1. Crie uma função eh_par(n) que retorna True se o número for par
 - [ ] 2. Crie uma função rea_circulo(raio) que usa math.pi para calcular área
-- [ ] 3. Crie uma função gerar_senha(tamanho) que usa andom.choice() para gerar uma senha alfanumérica
+- [ ] 3. Crie uma função gerar_senha(tamanho) que usa 
+andom.choice() para gerar uma senha alfanumérica
 
 ---
 

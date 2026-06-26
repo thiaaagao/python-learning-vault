@@ -1,13 +1,17 @@
 ---
-tags: [python, fase-3, packaging]
+tags:
+- python
+- fase-3
+- packaging
 phase: 3
 topic: pacotes-venv
 status: not-started
 priority: medium
 created: 2026-06-24
-updated: 2026-06-24
-started:
-completed:
+updated: '2026-06-26'
+started: null
+completed: null
+progress_percent: 0
 ---
 
 # Pacotes, venv e pip

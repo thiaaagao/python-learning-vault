@@ -1,14 +1,18 @@
 ---
-tags: [python, fase-2, project]
+tags:
+- python
+- fase-2
+- project
 phase: 2
 topic: projeto-port-scanner
 status: not-started
 priority: high
 created: 2026-06-24
-updated: 2026-06-24
-started:
-completed:
+updated: '2026-06-26'
+started: null
+completed: null
 xp_earned: 0
+progress_percent: 0
 ---
 
 # 🏆 Projeto — Port Scanner + Log Parser

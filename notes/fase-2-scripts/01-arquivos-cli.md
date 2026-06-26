@@ -1,13 +1,17 @@
 ---
-tags: [python, fase-2, scripts]
+tags:
+- python
+- fase-2
+- scripts
 phase: 2
 topic: arquivos-cli
 status: not-started
 priority: high
 created: 2026-06-24
-updated: 2026-06-24
-started:
-completed:
+updated: '2026-06-26'
+started: null
+completed: null
+progress_percent: 0
 ---
 
 # Arquivos e CLI

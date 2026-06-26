@@ -1,13 +1,17 @@
 ---
-tags: [python, fase-4, web]
+tags:
+- python
+- fase-4
+- web
 phase: 4
 topic: flask-fastapi
 status: not-started
 priority: high
 created: 2026-06-24
-updated: 2026-06-24
-started:
-completed:
+updated: '2026-06-26'
+started: null
+completed: null
+progress_percent: 0
 ---
 
 # Flask e FastAPI

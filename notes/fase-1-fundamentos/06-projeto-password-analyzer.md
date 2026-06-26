@@ -1,4 +1,8 @@
-﻿---
+---
+progress_percent: 0
+status: not-started
+updated: '2026-06-26'
+---﻿---
 tags: [python, fase-1, project]
 phase: 1
 topic: projeto-password-analyzer
@@ -72,5 +76,8 @@ Analisadores de senha são a base de:
 
 ## 📚 Recursos
 - Módulo string: string.ascii_letters, string.digits, string.punctuation
-- Módulo andom: andom.choice(), andom.shuffle()
+- Módulo 
+andom: 
+andom.choice(), 
+andom.shuffle()
 - join(): "".join(lista) para juntar caracteres

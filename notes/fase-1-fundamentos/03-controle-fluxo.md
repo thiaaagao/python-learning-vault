@@ -1,4 +1,8 @@
-﻿---
+---
+progress_percent: 0
+status: not-started
+updated: '2026-06-26'
+---﻿---
 tags: [python, fase-1, controle]
 phase: 1
 topic: controle-fluxo

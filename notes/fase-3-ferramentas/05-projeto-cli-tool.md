@@ -1,14 +1,18 @@
 ---
-tags: [python, fase-3, project]
+tags:
+- python
+- fase-3
+- project
 phase: 3
 topic: projeto-cli-tool
 status: not-started
 priority: high
 created: 2026-06-24
-updated: 2026-06-24
-started:
-completed:
+updated: '2026-06-26'
+started: null
+completed: null
 xp_earned: 0
+progress_percent: 0
 ---
 
 # 🏆 Projeto — CLI Tool com OOP + Testes
