@@ -29,7 +29,8 @@ const threshold = xp.level_thresholds[`level_${currentLevel}`];
 const nextThreshold = xp.level_thresholds[`level_${currentLevel + 1}`];
 const progressXP = nextThreshold ? ((currentXP - threshold) / (nextThreshold - threshold) * 100) : 100;
 dv.paragraph(`**XP para próximo level:** ${Math.round(progressXP)}%`);
-dv.span(`![progress](https://progress-bar.dev/${Math.round(progressXP)}/?title=XP)`);
+const xpBar = `<progress value="${Math.round(progressXP)}" max="100" style="width:100%;height:18px;border-radius:8px;"></progress>`;
+dv.span(xpBar);
 
 // --- PHASES ---
 dv.paragraph("## 📚 Progresso por Fase");
@@ -38,7 +39,8 @@ for (let i = 1; i <= 6; i++) {
     const phase = p.phase_status[`phase_${i}`];
     const statusIcon = phase.status === "completed" ? "✅" : phase.status === "studying" ? "📖" : "⬜";
     dv.paragraph(`${statusIcon} **Fase ${i}:** ${fases[i]} — ${phase.progress_percent}%`);
-    dv.span(`![progress](https://progress-bar.dev/${phase.progress_percent}/)`);
+    const bar = `<progress value="${phase.progress_percent}" max="100" style="width:100%;height:14px;border-radius:6px;"></progress>`;
+    dv.span(bar);
 }
 
 // --- BADGES ---
