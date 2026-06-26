@@ -1,4 +1,4 @@
-﻿# Python Journey 🧭 — Índice
+# Python Journey 🧭 — Índice
 
 > Sua trilha completa de aprendizado Python. Fase atual: **1** | XP: **0** | Level: **1**
 

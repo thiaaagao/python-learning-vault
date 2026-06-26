@@ -4,10 +4,10 @@ from pathlib import Path
 
 VAULT = Path(__file__).parent.parent
 
-# Load current progress
-progress_path = VAULT / "data" / "progress.yaml"
-with open(progress_path, "r", encoding="utf-8") as f:
-    data = yaml.safe_load(f)
+# Load current progress from markdown frontmatter
+progress_path = VAULT / "data" / "progress.md"
+raw = progress_path.read_text(encoding="utf-8")
+data = yaml.safe_load(raw.split("---", 2)[1] if raw.startswith("---") else raw)
 
 p = data["progress"]
 
@@ -52,6 +52,8 @@ else:
     p["current_phase"] = 6
 
 with open(progress_path, "w", encoding="utf-8") as f:
+    f.write("---\n")
     yaml.dump(data, f, default_flow_style=False, allow_unicode=True)
+    f.write("---\n")
 
 print(f"Progresso atualizado: {completed_phases}/6 fases completas")

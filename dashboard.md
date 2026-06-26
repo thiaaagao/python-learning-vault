@@ -5,12 +5,17 @@ banner: Python Journey
 # 🧭 Python Journey Dashboard
 
 ```dataviewjs
-const progress = await dv.io.load("data/progress.yaml");
-const xpData = await dv.io.load("data/xp.yaml");
-const flashcards = await dv.io.load("data/flashcards.yaml");
+const progress = dv.page("data/progress");
+const xpPage = dv.page("data/xp");
+const flashcardsPage = dv.page("data/flashcards");
+
+if (!progress || !xpPage) {
+    dv.paragraph("⚠️ Dados de progresso ainda não carregados. Abra os arquivos em `data/` primeiro.");
+    return;
+}
 
 const p = progress.progress;
-const xp = xpData.xp;
+const xp = xpPage.xp;
 
 // --- STATUS CARD ---
 dv.paragraph(`## 📊 Status Atual
@@ -48,7 +53,7 @@ if (badges.length === 0) {
 
 // --- FLASHCARDS ---
 dv.paragraph("## 🔄 Flashcards");
-const cards = flashcards.flashcards || [];
+const cards = (flashcardsPage && flashcardsPage.flashcards) || [];
 const unknown = cards.filter(c => c.status === "unknown").length;
 const learning = cards.filter(c => c.status === "learning").length;
 const mastered = cards.filter(c => c.status === "mastered").length;

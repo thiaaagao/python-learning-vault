@@ -6,7 +6,7 @@ from pathlib import Path
 
 VAULT = Path(__file__).parent.parent
 REQUIRED_DIRS = ["data", "notes/fase-1-fundamentos", "notes/fase-6-proj-final", "templates", "scripts"]
-REQUIRED_DATA = ["progress.yaml", "xp.yaml", "flashcards.yaml", "resources.yaml"]
+REQUIRED_DATA = ["progress.md", "xp.md", "flashcards.md", "resources.yaml"]
 
 errors = []
 warnings = []
@@ -24,14 +24,24 @@ for f in REQUIRED_DATA:
     if not (VAULT / "data" / f).exists():
         error(f"Arquivo de dados ausente: data/{f}")
 
-# Check YAML validity
-for yaml_file in (VAULT / "data").glob("*.yaml"):
+# Check YAML validity in data files (.md frontmatter and .yaml)
+for data_file in (VAULT / "data").glob("*"):
+    if data_file.suffix not in (".md", ".yaml"):
+        continue
+    if data_file.name == "resources.yaml":
+        continue
     try:
-        data = yaml.safe_load(yaml_file.read_text(encoding="utf-8"))
+        raw = data_file.read_text(encoding="utf-8")
+        if data_file.suffix == ".md":
+            if not raw.startswith("---"):
+                warn(f"Data file sem frontmatter: data/{data_file.name}")
+                continue
+            raw = raw.split("---", 2)[1]
+        data = yaml.safe_load(raw)
         if not data:
-            warn(f"Arquivo YAML vazio: data/{yaml_file.name}")
+            warn(f"Arquivo de dados vazio: data/{data_file.name}")
     except yaml.YAMLError as e:
-        error(f"YAML inválido: data/{yaml_file.name} — {e}")
+        error(f"YAML inválido: data/{data_file.name} — {e}")
 
 # Check note frontmatter
 for md_file in (VAULT / "notes").rglob("*.md"):

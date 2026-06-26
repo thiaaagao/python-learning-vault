@@ -1,3 +1,4 @@
+---
 flashcards:
   - id: py-001
     phase: 1
@@ -8,7 +9,6 @@ flashcards:
     difficulty: beginner
     created: 2026-06-24
     tags: [python, fundamentos, variables]
-
   - id: py-002
     phase: 1
     topic: fundamentos
@@ -18,7 +18,6 @@ flashcards:
     difficulty: beginner
     created: 2026-06-24
     tags: [python, fundamentos, types]
-
   - id: py-003
     phase: 1
     topic: fundamentos
@@ -28,7 +27,6 @@ flashcards:
     difficulty: beginner
     created: 2026-06-24
     tags: [python, fundamentos, data-structures]
-
   - id: py-004
     phase: 1
     topic: fundamentos
@@ -38,7 +36,6 @@ flashcards:
     difficulty: beginner
     created: 2026-06-24
     tags: [python, fundamentos, data-structures]
-
   - id: py-005
     phase: 1
     topic: fundamentos
@@ -48,7 +45,6 @@ flashcards:
     difficulty: beginner
     created: 2026-06-24
     tags: [python, fundamentos, data-structures]
-
   - id: py-006
     phase: 1
     topic: fundamentos
@@ -58,7 +54,6 @@ flashcards:
     difficulty: beginner
     created: 2026-06-24
     tags: [python, fundamentos, slicing]
-
   - id: py-007
     phase: 1
     topic: fundamentos
@@ -68,7 +63,6 @@ flashcards:
     difficulty: intermediate
     created: 2026-06-24
     tags: [python, fundamentos, comprehension]
-
   - id: py-008
     phase: 1
     topic: fundamentos
@@ -78,7 +72,6 @@ flashcards:
     difficulty: intermediate
     created: 2026-06-24
     tags: [python, fundamentos, scope]
-
   - id: py-009
     phase: 1
     topic: fundamentos
@@ -88,7 +81,6 @@ flashcards:
     difficulty: intermediate
     created: 2026-06-24
     tags: [python, fundamentos, generators]
-
   - id: py-010
     phase: 1
     topic: fundamentos
@@ -98,7 +90,6 @@ flashcards:
     difficulty: beginner
     created: 2026-06-24
     tags: [python, fundamentos, unpacking]
-
   - id: py-011
     phase: 1
     topic: fundamentos
@@ -108,7 +99,6 @@ flashcards:
     difficulty: beginner
     created: 2026-06-24
     tags: [python, fundamentos, modules]
-
   - id: py-012
     phase: 1
     topic: fundamentos
@@ -118,3 +108,4 @@ flashcards:
     difficulty: beginner
     created: 2026-06-24
     tags: [python, fundamentos, documentation]
+---

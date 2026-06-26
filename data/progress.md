@@ -1,3 +1,4 @@
+---
 progress:
   total_flashcards: 0
   mastered: 0
@@ -43,3 +44,4 @@ progress:
       progress_percent: 0
       started:
       completed:
+---

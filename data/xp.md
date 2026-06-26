@@ -1,3 +1,4 @@
+---
 xp:
   current: 0
   level: 1
@@ -17,3 +18,4 @@ xp:
     level_8: 2300
     level_9: 3000
     level_10: 4000
+---
