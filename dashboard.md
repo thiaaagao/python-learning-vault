@@ -11,8 +11,7 @@ const flashcardsPage = dv.page("data/flashcards");
 
 if (!progress || !xpPage) {
     dv.paragraph("⚠️ Dados de progresso ainda não carregados. Abra os arquivos em `data/` primeiro.");
-    return;
-}
+} else {
 
 const p = progress.progress;
 const xp = xpPage.xp;
@@ -63,4 +62,6 @@ dv.paragraph(`Total: ${cards.length} | ❓ ${unknown} | 📖 ${learning} | ✅ $
 dv.paragraph("## 🎯 Próxima Ação");
 const nextPhase = p.current_phase;
 dv.paragraph(`Continue na **[Fase ${nextPhase}: ${fases[nextPhase]}](./notes/fase-${nextPhase}-fundamentos/01-introducao-setup.md)**`);
+
+}
 ```
