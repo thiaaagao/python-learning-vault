@@ -1,0 +1,83 @@
+resources:
+  fase_1:
+    - name: FreeCodeCamp - Scientific Computing with Python
+      url: https://www.freecodecamp.org/learn/scientific-computing-with-python/
+      type: course
+      language: en
+    - name: Corey Schafer - Python Beginner Playlist
+      url: https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwo8iCj7PqUp3
+      type: playlist
+      language: en
+    - name: Curso em Vídeo - Python Mundo 1
+      url: https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6
+      type: playlist
+      language: pt
+  fase_2:
+    - name: Real Python - Socket Programming
+      url: https://realpython.com/python-sockets/
+      type: tutorial
+      language: en
+    - name: Tech With Tim - Python Tutorials
+      url: https://www.youtube.com/@TechWithTim
+      type: channel
+      language: en
+    - name: NetworkChuck - Python for Cybersecurity
+      url: https://www.youtube.com/playlist?list=PLIhvC56v63IL0OvUo3hN3K8v_B3oQkAqI
+      type: playlist
+      language: en
+    - name: Automate the Boring Stuff with Python
+      url: https://automatetheboringstuff.com/
+      type: book
+      language: en
+  fase_3:
+    - name: ArjanCodes - OOP & Code Design
+      url: https://www.youtube.com/@ArjanCodes
+      type: channel
+      language: en
+    - name: Corey Schafer - OOP Playlist
+      url: https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqkpwlP8E5r1kN7_d
+      type: playlist
+      language: en
+    - name: FreeCodeCamp - OOP in Python
+      url: https://www.youtube.com/watch?v=Ej_02ICOIgs
+      type: video
+      language: en
+    - name: Real Python - Python Type Checking
+      url: https://realpython.com/python-type-checking/
+      type: tutorial
+      language: en
+  fase_4:
+    - name: FastAPI Official Tutorial
+      url: https://fastapi.tiangolo.com/tutorial/
+      type: docs
+      language: en
+    - name: Corey Schafer - Flask Playlist
+      url: https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH
+      type: playlist
+      language: en
+    - name: FreeCodeCamp - REST APIs with Flask
+      url: https://www.youtube.com/watch?v=GMppyAPbLYk
+      type: video
+      language: en
+  fase_5:
+    - name: Corey Schafer - Pandas Playlist
+      url: https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c3mdJ0kzQq7F6dG
+      type: playlist
+      language: en
+    - name: Real Python - Pandas Learning Path
+      url: https://realpython.com/learning-paths/pandas-data-science/
+      type: path
+      language: en
+    - name: FreeCodeCamp - Data Analysis with Python
+      url: https://www.freecodecamp.org/learn/data-analysis-with-python/
+      type: course
+      language: en
+  fase_6:
+    - name: Python Official Docs
+      url: https://docs.python.org/3/
+      type: docs
+      language: en
+    - name: Real Python Tutorials
+      url: https://realpython.com/
+      type: site
+      language: en
