@@ -1,0 +1,101 @@
+questions:
+  - id: f3-001
+    domain: "OOP"
+    question: "Qual método é chamado ao criar uma instância de uma classe?"
+    options:
+      a: "__str__"
+      b: "__init__"
+      c: "__new__"
+      d: "__call__"
+    answer: b
+    explanation: "__init__ é o construtor, chamado automaticamente ao instanciar um objeto."
+  - id: f3-002
+    domain: "OOP"
+    question: "O que `self` representa dentro de um método de classe?"
+    options:
+      a: "A classe"
+      b: "A instância atual"
+      c: "O módulo"
+      d: "O pai da classe"
+    answer: b
+    explanation: "self é a referência à instância atual do objeto. É passado implicitamente."
+  - id: f3-003
+    domain: "Decorators"
+    question: "O que um decorator faz?"
+    options:
+      a: "Modifica a sintaxe da função"
+      b: "Adiciona funcionalidade a uma função sem alterar seu código"
+      c: "Deleta a função"
+      d: "Cria uma cópia da função"
+    answer: b
+    explanation: "Decorators envolvem uma função para adicionar comportamento antes/depois dela."
+  - id: f3-004
+    domain: "Generators"
+    question: "Qual palavra-chave cria um generator?"
+    options:
+      a: "return"
+      b: "yield"
+      c: "await"
+      d: "generator"
+    answer: b
+    explanation: "yield pausa a função e retorna um valor, mantendo o estado para a próxima chamada."
+  - id: f3-005
+    domain: "Pacotes e Venv"
+    question: "Qual comando cria um ambiente virtual?"
+    options:
+      a: "python venv"
+      b: "python -m venv .venv"
+      c: "pip venv"
+      d: "virtual .venv"
+    answer: b
+    explanation: "python -m venv .venv cria um ambiente virtual na pasta .venv."
+  - id: f3-006
+    domain: "Pytest"
+    question: "Como descobre e roda testes com pytest?"
+    options:
+      a: "python test.py"
+      b: "pytest"
+      c: "pytest run"
+      d: "python -m test"
+    answer: b
+    explanation: "Basta executar 'pytest' no terminal. Ele descobre arquivos test_*.py automaticamente."
+  - id: f3-007
+    domain: "Args e Kwargs"
+    question: "O que *args faz em uma função?"
+    options:
+      a: "Aceita argumentos nomeados"
+      b: "Aceita número variável de argumentos posicionais"
+      c: "Aceita apenas um argumento"
+      d: "Força argumentos nomeados"
+    answer: b
+    explanation: "*args empacota argumentos posicionais extras em uma tupla. **kwargs faz o mesmo para nomeados."
+  - id: f3-008
+    domain: "Name e Main"
+    question: "O que `if __name__ == '__main__':` faz?"
+    options:
+      a: "Verifica se o módulo foi importado"
+      b: "Executa o bloco só se o script for executado diretamente"
+      c: "Executa o bloco só se o script foi importado"
+      d: "Verifica a versão do Python"
+    answer: b
+    explanation: "O bloco executa apenas quando o script é rodado diretamente, não quando importado."
+  - id: f3-009
+    domain: "OOP"
+    question: "O que é herança em OOP?"
+    options:
+      a: "Uma classe copiar métodos de outra"
+      b: "Uma classe derivar atributos e métodos de uma classe pai"
+      c: "Duas classes compartilharem a mesma instância"
+      d: "Uma classe destruir outra"
+    answer: b
+    explanation: "Herança permite uma classe filha reutilizar e estender comportamento da classe pai."
+  - id: f3-010
+    domain: "Lambda"
+    question: "Qual a sintaxe correta de uma função lambda?"
+    options:
+      a: "lambda x: x * 2"
+      b: "lambda (x): return x * 2"
+      c: "def lambda(x): x * 2"
+      d: "x => x * 2"
+    answer: a
+    explanation: "lambda args: expressão. Não usa return, a expressão é automaticamente retornada."

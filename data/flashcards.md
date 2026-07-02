@@ -9,6 +9,10 @@ flashcards:
     difficulty: beginner
     created: 2026-06-24
     tags: [python, fundamentos, variables]
+    interval: 0
+    ease: 2.5
+    next_review: 2026-06-26
+    reviews: 0
   - id: py-002
     phase: 1
     topic: fundamentos
@@ -18,6 +22,10 @@ flashcards:
     difficulty: beginner
     created: 2026-06-24
     tags: [python, fundamentos, types]
+    interval: 0
+    ease: 2.5
+    next_review: 2026-06-26
+    reviews: 0
   - id: py-003
     phase: 1
     topic: fundamentos
@@ -27,6 +35,10 @@ flashcards:
     difficulty: beginner
     created: 2026-06-24
     tags: [python, fundamentos, data-structures]
+    interval: 0
+    ease: 2.5
+    next_review: 2026-06-26
+    reviews: 0
   - id: py-004
     phase: 1
     topic: fundamentos
@@ -36,6 +48,10 @@ flashcards:
     difficulty: beginner
     created: 2026-06-24
     tags: [python, fundamentos, data-structures]
+    interval: 0
+    ease: 2.5
+    next_review: 2026-06-26
+    reviews: 0
   - id: py-005
     phase: 1
     topic: fundamentos
@@ -45,6 +61,10 @@ flashcards:
     difficulty: beginner
     created: 2026-06-24
     tags: [python, fundamentos, data-structures]
+    interval: 0
+    ease: 2.5
+    next_review: 2026-06-26
+    reviews: 0
   - id: py-006
     phase: 1
     topic: fundamentos
@@ -54,6 +74,10 @@ flashcards:
     difficulty: beginner
     created: 2026-06-24
     tags: [python, fundamentos, slicing]
+    interval: 0
+    ease: 2.5
+    next_review: 2026-06-26
+    reviews: 0
   - id: py-007
     phase: 1
     topic: fundamentos
@@ -63,6 +87,10 @@ flashcards:
     difficulty: intermediate
     created: 2026-06-24
     tags: [python, fundamentos, comprehension]
+    interval: 0
+    ease: 2.5
+    next_review: 2026-06-26
+    reviews: 0
   - id: py-008
     phase: 1
     topic: fundamentos
@@ -72,6 +100,10 @@ flashcards:
     difficulty: intermediate
     created: 2026-06-24
     tags: [python, fundamentos, scope]
+    interval: 0
+    ease: 2.5
+    next_review: 2026-06-26
+    reviews: 0
   - id: py-009
     phase: 1
     topic: fundamentos
@@ -81,6 +113,10 @@ flashcards:
     difficulty: intermediate
     created: 2026-06-24
     tags: [python, fundamentos, generators]
+    interval: 0
+    ease: 2.5
+    next_review: 2026-06-26
+    reviews: 0
   - id: py-010
     phase: 1
     topic: fundamentos
@@ -90,6 +126,10 @@ flashcards:
     difficulty: beginner
     created: 2026-06-24
     tags: [python, fundamentos, unpacking]
+    interval: 0
+    ease: 2.5
+    next_review: 2026-06-26
+    reviews: 0
   - id: py-011
     phase: 1
     topic: fundamentos
@@ -99,6 +139,10 @@ flashcards:
     difficulty: beginner
     created: 2026-06-24
     tags: [python, fundamentos, modules]
+    interval: 0
+    ease: 2.5
+    next_review: 2026-06-26
+    reviews: 0
   - id: py-012
     phase: 1
     topic: fundamentos
@@ -108,4 +152,8 @@ flashcards:
     difficulty: beginner
     created: 2026-06-24
     tags: [python, fundamentos, documentation]
+    interval: 0
+    ease: 2.5
+    next_review: 2026-06-26
+    reviews: 0
 ---

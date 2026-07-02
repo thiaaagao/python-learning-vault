@@ -6,25 +6,31 @@
 
 ## Fases
 
-| Fase | Tópico | Status | Projeto | XP |
-|---|---|---|---|---|
-| 1 | Fundamentos | ⬜ | Password analyzer | 0/70 |
-| 2 | Scripts & Automação | ⬜ | Port scanner + log parser | 0/70 |
-| 3 | Ferramentas | ⬜ | CLI tool com OOP + testes | 0/70 |
-| 4 | Web & API | ⬜ | REST API de segurança | 0/70 |
-| 5 | Dados | ⬜ | Dashboard de threat intel | 0/70 |
-| 6 | Projeto Final | ⬜ | Ferramenta completa | 0/100 |
+| Fase | Tópico              | Status | Projeto                   | XP    |
+| ---- | ------------------- | ------ | ------------------------- | ----- |
+| 1    | Fundamentos         | ⬜      | Password analyzer         | 0/70  |
+| 2    | Scripts & Automação | ⬜      | Port scanner + log parser | 0/70  |
+| 3    | Ferramentas         | ⬜      | CLI tool com OOP + testes | 0/70  |
+| 4    | Web & API           | ⬜      | REST API de segurança     | 0/70  |
+| 5    | Dados               | ⬜      | Dashboard de threat intel | 0/70  |
+| 6    | Projeto Final       | ⬜      | Ferramenta completa       | 0/100 |
 
 ---
 
 ## Quick Links
 - [Dashboard](./dashboard.md)
+- [Sistema de Estudo](./study/INDEX.md) ← **Método completo: flashcards, simulados, análise de erro**
 - [Fase 1 — Fundamentos](./notes/fase-1-fundamentos/01-introducao-setup.md)
 - [Fase 2 — Scripts](./notes/fase-2-scripts/01-arquivos-cli.md)
 - [Fase 3 — Ferramentas](./notes/fase-3-ferramentas/01-oop-classes.md)
 - [Fase 4 — Web & API](./notes/fase-4-web-api/01-flask-fastapi.md)
 - [Fase 5 — Dados](./notes/fase-5-dados/01-pandas-basico.md)
 - [Projetos](./projects/)
+
+## ☁️ Cloud & DevOps (Google Cloud Arcade 2026)
+| Nota | Plataforma | Tópico |
+|---|---|---|
+| [IaC com Terraform no GCP](./notes/labs/gcp-terraform-iac.md) | GCP | Terraform, HCL, Provisioners |
 
 ## Novas Notas (Jun 2026)
 | Nota | Fase | Tópico |

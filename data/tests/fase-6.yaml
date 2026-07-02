@@ -1,0 +1,101 @@
+questions:
+  - id: f6-001
+    domain: "Arquitetura"
+    question: "Qual padrão separa a aplicação em Model, View, Controller?"
+    options:
+      a: "REST"
+      b: "MVC"
+      c: "SOLID"
+      d: "CRUD"
+    answer: b
+    explanation: "MVC (Model-View-Controller) separa dados, interface e lógica de controle."
+  - id: f6-002
+    domain: "Boas Práticas"
+    question: "O que são princípios SOLID?"
+    options:
+      a: "Regras de formatação de código"
+      b: "5 princípios de design orientado a objetos"
+      c: "Regras de segurança"
+      d: "Padrões de banco de dados"
+    answer: b
+    explanation: "SOLID são 5 princípios de OOP: Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion."
+  - id: f6-003
+    domain: "Testes"
+    question: "O que é um teste unitário?"
+    options:
+      a: "Teste que cobre o sistema inteiro"
+      b: "Teste que verifica uma unidade isolada de código"
+      c: "Teste de interface do usuário"
+      d: "Teste de performance"
+    answer: b
+    explanation: "Teste unitário testa a menor unidade testável (função/método) de forma isolada."
+  - id: f6-004
+    domain: "CLI"
+    question: "Qual biblioteca cria CLIs com argumentos subcomandos?"
+    options:
+      a: "argparse"
+      b: "click"
+      c: "typer"
+      d: "Todas as acima"
+    answer: d
+    explanation: "argparse (stdlib), click e typer (terceiros) criam CLIs com subcomandos."
+  - id: f6-005
+    domain: "Documentação"
+    question: "Qual ferramenta gera documentação automática de APIs Python?"
+    options:
+      a: "Sphinx"
+      b: "Jekyll"
+      c: "Docusaurus"
+      d: "MkDocs"
+    answer: a
+    explanation: "Sphinx é a ferramenta mais comum para documentar projetos Python (lê docstrings)."
+  - id: f6-006
+    domain: "Pacotes"
+    question: "Qual arquivo define metadados de um pacote Python?"
+    options:
+      a: "requirements.txt"
+      b: "setup.py"
+      c: "pyproject.toml"
+      d: "Pipfile"
+    answer: c
+    explanation: "pyproject.toml é o padrão atual para definir metadados e dependências de pacotes."
+  - id: f6-007
+    domain: "CI/CD"
+    question: "O que é integração contínua (CI)?"
+    options:
+      a: "Fazer deploy manualmente"
+      b: "Automatizar testes a cada push no repositório"
+      c: "Revisar código antes de mergear"
+      d: "Criar releases"
+    answer: b
+    explanation: "CI roda testes automaticamente a cada push para detectar problemas cedo."
+  - id: f6-008
+    domain: "Segurança"
+    question: "Qual prática NÃO é recomendada para segurança?"
+    options:
+      a: "Validar input do usuário"
+      b: "Usar HTTPS"
+      c: "Armazenar senhas em texto puro no banco"
+      d: "Usar hash + salt para senhas"
+    answer: c
+    explanation: "Senhas nunca devem ser armazenadas em texto puro. Sempre use hash + salt (bcrypt, argon2)."
+  - id: f6-009
+    domain: "Logging"
+    question: "Qual módulo nativo do Python gerencia logs?"
+    options:
+      a: "log"
+      b: "logging"
+      c: "logger"
+      d: "syslog"
+    answer: b
+    explanation: "logging é o módulo nativo para logs. Suporta níveis: DEBUG, INFO, WARNING, ERROR, CRITICAL."
+  - id: f6-010
+    domain: "Boas Práticas"
+    question: "O que é type hint em Python?"
+    options:
+      a: "Uma forma de declarar tipos que são verificados em tempo de execução"
+      b: "Uma dica de tipo para ferramentas externas e legibilidade"
+      c: "Uma forma de tornar Python tipado estaticamente"
+      d: "Um comentário ignorado pelo interpretador"
+    answer: b
+    explanation: "Type hints são anotações para ferramentas (mypy, IDE) e documentação. Python ignora em runtime."

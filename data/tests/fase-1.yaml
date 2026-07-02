@@ -1,0 +1,101 @@
+questions:
+  - id: f1-001
+    domain: "Sintaxe e Tipos"
+    question: "Qual a saída de `print(type(3.14))`?"
+    options:
+      a: "<class 'int'>"
+      b: "<class 'float'>"
+      c: "<class 'str'>"
+      d: "<class 'number'>"
+    answer: b
+    explanation: "3.14 é um float. type() retorna o tipo do objeto."
+  - id: f1-002
+    domain: "Sintaxe e Tipos"
+    question: "Qual operador calcula o resto da divisão em Python?"
+    options:
+      a: "/"
+      b: "//"
+      c: "%"
+      d: "**"
+    answer: c
+    explanation: "% é o operador módulo (resto da divisão). // é divisão inteira, ** é potência."
+  - id: f1-003
+    domain: "Controle de Fluxo"
+    question: "O que o seguinte código imprime? `for i in range(3): print(i)`"
+    options:
+      a: "1 2 3"
+      b: "0 1 2"
+      c: "0 1 2 3"
+      d: "1 2"
+    answer: b
+    explanation: "range(3) gera 0, 1, 2. range começa em 0 por padrão."
+  - id: f1-004
+    domain: "Controle de Fluxo"
+    question: "Qual estrutura NÃO existe em Python?"
+    options:
+      a: "if-elif-else"
+      b: "switch-case"
+      c: "while"
+      d: "for-in"
+    answer: b
+    explanation: "Python não tem switch-case nativo (só a partir do 3.10 com match-case). Use if-elif-else."
+  - id: f1-005
+    domain: "Estruturas de Dados"
+    question: "Qual a diferença entre lista e tupla?"
+    options:
+      a: "Lista é imutável, tupla é mutável"
+      b: "Lista é mutável, tupla é imutável"
+      c: "Lista usa {}, tupla usa []"
+      d: "Não há diferença"
+    answer: b
+    explanation: "Lista ([ ]) é mutável. Tupla (( )) é imutável depois de criada."
+  - id: f1-006
+    domain: "Estruturas de Dados"
+    question: "Como acessa o valor da chave 'nome' em um dicionário?"
+    options:
+      a: "dict.nome"
+      b: "dict['nome']"
+      c: "dict['nome'']"
+      d: "dict->nome"
+    answer: b
+    explanation: "Dicionários usam colchetes com a chave: dict['chave'] ou dict.get('chave')."
+  - id: f1-007
+    domain: "Funções"
+    question: "O que uma função retorna se não tiver return?"
+    options:
+      a: "0"
+      b: "False"
+      c: "None"
+      d: "Erro de sintaxe"
+    answer: c
+    explanation: "Funções sem return retornam None implicitamente."
+  - id: f1-008
+    domain: "Funções"
+    question: "Qual a saída? `def soma(a, b): return a + b` seguido de `print(soma(5))`"
+    options:
+      a: "5"
+      b: "TypeError"
+      c: "None"
+      d: "Erro de sintaxe"
+    answer: b
+    explanation: "TypeError: soma() missing 1 required positional argument: 'b'. A função espera 2 argumentos."
+  - id: f1-009
+    domain: "Strings"
+    question: "Qual método converte uma string para minúsculas?"
+    options:
+      a: "lower()"
+      b: "downcase()"
+      c: "tolower()"
+      d: "lowercase()"
+    answer: a
+    explanation: "lower() retorna a string em minúsculas. upper() para maiúsculas."
+  - id: f1-010
+    domain: "Listas"
+    question: "O que `lista.append(4)` faz?"
+    options:
+      a: "Remove o elemento 4"
+      b: "Adiciona 4 ao final da lista"
+      c: "Adiciona 4 no início da lista"
+      d: "Ordena a lista"
+    answer: b
+    explanation: "append() adiciona um elemento ao final da lista. insert() para posição específica."

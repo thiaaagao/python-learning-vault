@@ -1,0 +1,101 @@
+questions:
+  - id: f4-001
+    domain: "Flask vs FastAPI"
+    question: "Qual característica é nativa do FastAPI mas não do Flask?"
+    options:
+      a: "Rotas"
+      b: "Validação automática com type hints"
+      c: "Templates Jinja2"
+      d: "Suporte a SQLite"
+    answer: b
+    explanation: "FastAPI usa type hints do Python para validar dados automaticamente. Flask precisa de extensões."
+  - id: f4-002
+    domain: "HTTP e Rotas"
+    question: "Qual decorator define uma rota GET no Flask?"
+    options:
+      a: "@app.post('/rota')"
+      b: "@app.get('/rota')"
+      c: "@app.route('/rota')"
+      d: "@app.endpoint('/rota')"
+    answer: c
+    explanation: "@app.route() é o decorator principal. Por padrão responde a GET. Use methods=['POST'] para outros."
+  - id: f4-003
+    domain: "Async/Await"
+    question: "Qual palavra-chave define uma função assíncrona?"
+    options:
+      a: "async"
+      b: "await"
+      c: "thread"
+      d: "parallel"
+    answer: a
+    explanation: "async def define função assíncrona. await é usado DENTRO dela para chamar outras async."
+  - id: f4-004
+    domain: "ORM e Banco"
+    question: "Qual é um ORM popular para Python?"
+    options:
+      a: "Sequelize"
+      b: "SQLAlchemy"
+      c: "Mongoose"
+      d: "Hibernate"
+    answer: b
+    explanation: "SQLAlchemy é o ORM mais usado em Python. Sequelize (JS), Mongoose (Mongo/JS), Hibernate (Java)."
+  - id: f4-005
+    domain: "Autenticação"
+    question: "Qual biblioteca é comumente usada para JWTs em Python?"
+    options:
+      a: "jwt.py"
+      b: "pyjwt"
+      c: "authlib"
+      d: "flask-login"
+    answer: c
+    explanation: "Authlib (ou PyJWT) é a biblioteca mais usada para JWT. flask-login é para sessões."
+  - id: f4-006
+    domain: "Templates"
+    question: "Qual engine de templates é padrão do Flask?"
+    options:
+      a: "Mako"
+      b: "DjangoTemplates"
+      c: "Jinja2"
+      d: "Handlebars"
+    answer: c
+    explanation: "Jinja2 é o template engine padrão do Flask. Usa {{ var }} e {% for %}."
+  - id: f4-007
+    domain: "Async/Await"
+    question: "O que `await` faz?"
+    options:
+      a: "Cria uma thread"
+      b: "Pausa a execução até a corrotina terminar"
+      c: "Executa em paralelo"
+      d: "Ignora o resultado"
+    answer: b
+    explanation: "await pausa a função async atual até a corrotina chamada ser concluída."
+  - id: f4-008
+    domain: "Deploy"
+    question: "O que é o Render?"
+    options:
+      a: "Um ORM"
+      b: "Uma plataforma de deploy cloud"
+      c: "Um banco de dados"
+      d: "Um framework web"
+    answer: b
+    explanation: "Render é uma plataforma cloud que faz deploy de apps (como Railway, Heroku)."
+  - id: f4-009
+    domain: "REST APIs"
+    question: "Qual código HTTP indica recurso criado com sucesso?"
+    options:
+      a: "200"
+      b: "201"
+      c: "204"
+      d: "301"
+    answer: b
+    explanation: "201 = Created. 200 = OK, 204 = No Content, 301 = Moved Permanently."
+  - id: f4-010
+    domain: "ORM"
+    question: "O que é uma migração de banco?"
+    options:
+      a: "Copiar o banco para outro servidor"
+      b: "Alterar o schema do banco versionado"
+      c: "Deletar tabelas antigas"
+      d: "Fazer backup dos dados"
+    answer: b
+    explanation: "Migrações versionam alterações no schema (criar/alterar tabelas) de forma controlada."

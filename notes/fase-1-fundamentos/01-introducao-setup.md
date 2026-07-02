@@ -30,7 +30,7 @@ progress_percent: 100
 
 ### Verificar se já tem Python:
 `powershell
-python --version
+	python --version
 `
 
 Se aparecer Python 3.x.x — já está instalado.
@@ -103,3 +103,6 @@ Execute e digite seu nome.
 ## 📚 Recursos
 - 🎥 Corey Schafer: https://youtu.be/YYXdXT2l-Gg (Python Setup)
 - 🎥 Curso em Vídeo Mundo 1 Aula 1: https://youtu.be/S9uPNwGsTEM
+Continue na **[[Fase 1: Fundamentos - 02 - Sintaxe](obsidian://open?vault=python-journey-vault&file=notes%2Ffase-1-fundamentos%2F02-sintaxe-tipos)]**
+
+

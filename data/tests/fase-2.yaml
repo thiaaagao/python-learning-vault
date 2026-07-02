@@ -1,0 +1,101 @@
+questions:
+  - id: f2-001
+    domain: "Arquivos"
+    question: "Qual modo abre um arquivo para leitura em Python?"
+    options:
+      a: "'w'"
+      b: "'r'"
+      c: "'a'"
+      d: "'x'"
+    answer: b
+    explanation: "'r' = read (leitura), 'w' = write (escrita, sobrescreve), 'a' = append (anexa)."
+  - id: f2-002
+    domain: "Arquivos"
+    question: "Qual comando garante que um arquivo será fechado mesmo com erro?"
+    options:
+      a: "file.close()"
+      b: "with open() as file:"
+      c: "file.flush()"
+      d: "try: finally: file.close()"
+    answer: b
+    explanation: "O gerenciador de contexto 'with' fecha o arquivo automaticamente, mesmo em caso de erro."
+  - id: f2-003
+    domain: "APIs e Requests"
+    question: "Qual biblioteca é usada para fazer requisições HTTP em Python?"
+    options:
+      a: "http"
+      b: "urllib"
+      c: "requests"
+      d: "httplib"
+    answer: c
+    explanation: "requests é a biblioteca mais comum e amigável para requisições HTTP."
+  - id: f2-004
+    domain: "APIs e Requests"
+    question: "Qual método HTTP é usado para criar um recurso?"
+    options:
+      a: "GET"
+      b: "POST"
+      c: "PUT"
+      d: "DELETE"
+    answer: b
+    explanation: "POST cria recursos. GET lê, PUT atualiza, DELETE remove."
+  - id: f2-005
+    domain: "Regex"
+    question: "Qual padrão regex encontra um ou mais dígitos?"
+    options:
+      a: "\\d*"
+      b: "\\d+"
+      c: "\\d?"
+      d: "\\d{1}"
+    answer: b
+    explanation: "\\d+ = um ou mais dígitos. \\d* = zero ou mais. \\d? = zero ou um."
+  - id: f2-006
+    domain: "Regex"
+    question: "O que re.findall() retorna?"
+    options:
+      a: "A primeira ocorrência"
+      b: "Uma lista com todas as ocorrências"
+      c: "Um objeto match"
+      d: "Um booleano"
+    answer: b
+    explanation: "findall() retorna uma lista com TODAS as ocorrências do padrão na string."
+  - id: f2-007
+    domain: "Exceções"
+    question: "Qual bloco é executado sempre, com ou sem erro?"
+    options:
+      a: "try"
+      b: "except"
+      c: "else"
+      d: "finally"
+    answer: d
+    explanation: "finally sempre executa. else executa só se não houve erro."
+  - id: f2-008
+    domain: "JSON"
+    question: "Qual função converte um dicionário Python para JSON?"
+    options:
+      a: "json.loads()"
+      b: "json.dumps()"
+      c: "json.parse()"
+      d: "json.stringify()"
+    answer: b
+    explanation: "json.dumps() serializa dict → JSON string. json.loads() faz o inverso."
+  - id: f2-009
+    domain: "CLI"
+    question: "Qual módulo processa argumentos da linha de comando?"
+    options:
+      a: "sys"
+      b: "os"
+      c: "sys.argv"
+      d: "argparse"
+    answer: d
+    explanation: "argparse é o módulo recomendado para argumentos CLI. sys.argv é mais baixo nível."
+  - id: f2-010
+    domain: "Sockets"
+    question: "Qual porta padrão do HTTP?"
+    options:
+      a: "22"
+      b: "80"
+      c: "443"
+      d: "8080"
+    answer: b
+    explanation: "HTTP = 80, HTTPS = 443, SSH = 22, 8080 é alternativa comum para HTTP."

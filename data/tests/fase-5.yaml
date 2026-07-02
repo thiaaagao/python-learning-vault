@@ -1,0 +1,101 @@
+questions:
+  - id: f5-001
+    domain: "Pandas"
+    question: "Qual estrutura principal do Pandas para dados tabulares?"
+    options:
+      a: "Series"
+      b: "DataFrame"
+      c: "Array"
+      d: "Matrix"
+    answer: b
+    explanation: "DataFrame é a estrutura tabular 2D do Pandas. Series é 1D (uma coluna)."
+  - id: f5-002
+    domain: "Pandas"
+    question: "Qual função lê um arquivo CSV no Pandas?"
+    options:
+      a: "pd.read_excel()"
+      b: "pd.load_csv()"
+      c: "pd.read_csv()"
+      d: "pd.csv()"
+    answer: c
+    explanation: "pd.read_csv('arquivo.csv') lê CSV para DataFrame. read_excel() para Excel."
+  - id: f5-003
+    domain: "Visualização"
+    question: "Qual biblioteca de visualização é construída sobre o Pandas?"
+    options:
+      a: "Matplotlib"
+      b: "Seaborn"
+      c: "Plotly"
+      d: "Bokeh"
+    answer: b
+    explanation: "Seaborn é construída sobre Matplotlib e se integra bem com DataFrames do Pandas."
+  - id: f5-004
+    domain: "Web Scraping"
+    question: "Qual biblioteca é usada para parsear HTML em Python?"
+    options:
+      a: "requests"
+      b: "BeautifulSoup"
+      c: "Scrapy"
+      d: "Selenium"
+    answer: b
+    explanation: "BeautifulSoup parseia HTML/XML. requests baixa a página, Scrapy é framework completo."
+  - id: f5-005
+    domain: "NumPy"
+    question: "Como criar um array NumPy com todos os elementos 0?"
+    options:
+      a: "np.zeros(5)"
+      b: "np.empty(5)"
+      c: "np.ones(5)"
+      d: "np.arrange(5)"
+    answer: a
+    explanation: "np.zeros() cria array preenchido com 0. ones() com 1, empty() sem inicializar."
+  - id: f5-006
+    domain: "ML Básico"
+    question: "Qual biblioteca é a principal para Machine Learning em Python?"
+    options:
+      a: "TensorFlow"
+      b: "PyTorch"
+      c: "scikit-learn"
+      d: "Keras"
+    answer: c
+    explanation: "scikit-learn é a biblioteca padrão para ML clássico (classificação, regressão, clustering)."
+  - id: f5-007
+    domain: "Pandas"
+    question: "Qual método remove linhas com valores nulos?"
+    options:
+      a: "df.dropna()"
+      b: "df.fillna()"
+      c: "df.remove_null()"
+      d: "df.clean()"
+    answer: a
+    explanation: "dropna() remove linhas/colunas com NaN. fillna() preenche com um valor."
+  - id: f5-008
+    domain: "Automação"
+    question: "Qual biblioteca envia emails em Python?"
+    options:
+      a: "requests"
+      b: "smtplib"
+      c: "email"
+      d: "mail"
+    answer: b
+    explanation: "smtplib gerencia conexão SMTP. O módulo 'email' constrói o conteúdo da mensagem."
+  - id: f5-009
+    domain: "Visualização"
+    question: "Qual função do Matplotlib exibe o gráfico?"
+    options:
+      a: "plt.plot()"
+      b: "plt.show()"
+      c: "plt.display()"
+      d: "plt.render()"
+    answer: b
+    explanation: "plt.show() exibe o gráfico. plt.plot() cria, plt.savefig() salva."
+  - id: f5-010
+    domain: "Pandas"
+    question: "Qual método agrupa dados por uma coluna?"
+    options:
+      a: "df.groupby()"
+      b: "df.aggregate()"
+      c: "df.pivot()"
+      d: "df.filter()"
+    answer: a
+    explanation: "groupby() agrupa dados por uma coluna categórica para aplicar funções de agregação."
