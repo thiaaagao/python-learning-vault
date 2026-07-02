@@ -6,6 +6,36 @@ resources:
       type: book
       language: pt
       covers: [fase_1, fase_2, fase_3]
+    - name: Curso Intensivo de Python — Eric Matthes
+      path: books/Curso Intensivo de Python (Eric Matthes) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+      notes: library/curso-intensivo-python/INDEX.md
+      type: book
+      language: pt
+      covers: [fase_1, fase_3, fase_4, fase_5]
+    - name: Python Fluente — Luciano Ramalho
+      path: books/Python Fluente (Luciano Ramalho) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+      notes: library/python-fluente/INDEX.md
+      type: book
+      language: pt
+      covers: [fase_3, fase_4]
+    - name: Automatize Tarefas Maçantes — Al Sweigart
+      path: books/Automatize Tarefas Maçantes com Python (Al Sweigart) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+      notes: library/automatize-tarefas-macantes/INDEX.md
+      type: book
+      language: pt
+      covers: [fase_1, fase_2]
+    - name: Introdução ao Pentest — Daniel Moreno
+      path: books/Introdução ao Pentest (Daniel Moreno) (z-library.sk, 1lib.sk, z-lib.sk).epub
+      notes: library/introducao-ao-pentest/INDEX.md
+      type: book
+      language: pt
+      covers: [fase_2]
+    - name: Pentest em Redes Sem Fio — Daniel Moreno
+      path: books/Pentest em redes sem fio (Daniel Moreno) (z-library.sk, 1lib.sk, z-lib.sk).pdf
+      notes: library/pentest-redes-sem-fio/INDEX.md
+      type: book
+      language: pt
+      covers: []
   fase_1:
     - name: FreeCodeCamp - Scientific Computing with Python
       url: https://www.freecodecamp.org/learn/scientific-computing-with-python/

@@ -9,6 +9,10 @@ __pycache__/
 venv/
 .env
 
+# Books (PDFs are too large for GitHub - track via library notes)
+books/*.pdf
+books/*.epub
+
 # OS
 Thumbs.db
 .DS_Store
